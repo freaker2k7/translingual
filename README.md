@@ -18,14 +18,15 @@
 <!-- [![Known Vulnerabilities](https://snyk.io//test/github/freaker2k7/translingual/badge.svg?targetFile=package.json)](https://snyk.io//test/github/freaker2k7/translingual) -->
 
 
-<center>
-  <img src="https://i.imgur.com/L508wvt.jpg" alt="Translingual Logo" title="Translingual Logo" style="box-shadow: none;" style="max-width: 100%; border: 0; box-shadow: none;" height="300">
-</center>
+<div style="text-align: center">
+	<img src="https://i.imgur.com/L508wvt.jpg" alt="Translingual Logo" title="Translingual Logo" style="box-shadow: none;" style="max-width: 100%; border: 0; box-shadow: none;" height="300">
+</div>
 
 
 ## Install
-`npm i -g translingual`
-
+```bash
+$ npm i -g translingual
+```
 
 ## Usage
 Via bash:
@@ -52,6 +53,14 @@ Or in vanilla JS in your browser:
 ```
 
 #### [See live Demo](https://jsfiddle.net/thenetfreaker/grkzfae2/7/)
+
+## Description
+This small and cool module can phonatically visualize a sentense from one language to another.
+For this I use [transcription](https://en.wikipedia.org/wiki/Help:IPA "Transcription"). 
+I translate a sentense from any of the supported original languages to 
+transcription, and from that I form back a sentense on any currently supported language.
+
+NOTE: Semitic languages like Hebrew and Arabic are really problematic to translate *into* transcription.
 
 ## Spported Languages
 
