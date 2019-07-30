@@ -2,7 +2,7 @@
 	"name": "translingual",
 	"author": "Evgeny Kolyakov <thenetfreaker@gmail.com>",
 	"description": "Multilingual transliteration - phonetic visualization using transcription.",
-	"version": "1.1.0",
+	"version": "1.1.1",
 	"homepage": "https://github.com/freaker2k7/translingual",
 	"repository": "freaker2k7/translingual",
 	"license": "Apache-2.0",

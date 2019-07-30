@@ -15,7 +15,7 @@
 [![Beerpay](https://beerpay.io/freaker2k7/translingual/badge.svg?style=flat)](https://beerpay.io/freaker2k7/translingual)
 [![Liberapay](http://img.shields.io/liberapay/receives/evgy.svg?logo=liberapay)](https://liberapay.com/evgy/)
 [![GitHub stars](https://img.shields.io/github/stars/freaker2k7/translingual.svg?style=social&label=Stars)](https://github.com/freaker2k7/translingual/stargazers/)
-<!-- [![Known Vulnerabilities](https://snyk.io//test/github/freaker2k7/translingual/badge.svg?targetFile=package.json)](https://snyk.io//test/github/freaker2k7/translingual) -->
+[![Known Vulnerabilities](https://snyk.io//test/github/freaker2k7/translingual/badge.svg?targetFile=package.json)](https://snyk.io//test/github/freaker2k7/translingual?targetFile=package.json)
 
 
 <div style="text-align: center">
@@ -45,7 +45,7 @@ console.log(result); // This will print: "Эллoу Вoурлд!"
 
 Or using vanilla JS in your browser:
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/translingual@1.1.0/dist/translingual.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/translingual@1.1.1/dist/translingual.min.js"></script>
 <script type="text/javascript">
 	var result = Trans.lingualate('Hello world!', 'en', 'ru');
 	console.log(result); // This will print: "Эллoу Вoурлд!"
