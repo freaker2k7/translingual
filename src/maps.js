@@ -1075,7 +1075,7 @@ var maps = {
 			'ς': 'с' // only last and lowercase
 		}
 	},
-	ua: {
+	uk: {
 		trans: {
 			'а': 'a',
 			'б': 'b',

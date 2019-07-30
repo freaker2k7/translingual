@@ -33,24 +33,41 @@ Via bash:
 $ trans 'Hello world!' en ru
 ```
 
-Or as code:
+As code:
 ```javascript
 const trans = require('translingual');
 
 var result = trans.lingualate('Hello world!', 'en', 'ru');
-console.log( result ); // This will print: "Эллoу Вoурлд!"
+console.log(result); // This will print: "Эллoу Вoурлд!"
+```
+
+Or in vanilla JS in your browser:
+```xml
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/translingual@1.0.4/dist/translingual.min.js"></script>
+<script type="text/javascript">
+```
+<div style="margin-top: -2rem"></div>
+
+```js
+	var result = Trans.lingualate('Hello world!', 'en', 'ru');
+	console.log(result); // This will print: "Эллoу Вoурлд!"
+```
+<div style="margin-top: -2rem"></div>
+
+```xml
+</script>
 ```
 
 ## Spported Languages
-* en
-* he
-* ru
-* es
-* de
-* el
-* sr
-* fr
-* ua
+* "**en**" - English
+* "**ru**" - Russian
+* "**es**" - Spanish
+* "**de**" - German
+* "**el**" - Greek
+* "**sr**" - Serbian
+* "**fr**" - French
+* "**uk**" - Ukrainian
+* "**he**" - Hebrew (only "to" - can't read, can only write)
 
 ## Roadmap
 * Add more languages.

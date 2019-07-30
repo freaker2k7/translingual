@@ -6,12 +6,12 @@ var Trans = function() {
 	this.maps = maps;
 	
 	this.tWord1 = function(word, from_lang, to_lang) {
-		// console.debug(word, that.maps.map[from_lang][to_lang]);
+		// console.debug(word, maps.map[from_lang][to_lang]);
 		
-		for (var k in that.maps.map[from_lang][to_lang]) {
-			// console.debug('k-->', k, word, that.maps.map[from_lang][to_lang][k]);
-			if (that.maps.map[from_lang][to_lang].hasOwnProperty(k)) {
-				word = word.replace(new RegExp(k, 'g'), that.maps.map[from_lang][to_lang][k]);
+		for (var k in maps.map[from_lang][to_lang]) {
+			// console.debug('k-->', k, word, maps.map[from_lang][to_lang][k]);
+			if (maps.map[from_lang][to_lang].hasOwnProperty(k)) {
+				word = word.replace(new RegExp(k, 'g'), maps.map[from_lang][to_lang][k]);
 			}
 		}
 		
@@ -24,7 +24,7 @@ var Trans = function() {
 		}
 		
 		jumpTo = jumpTo || 0;
-		var tmp, parts, keys = Object.keys(that.maps.map[from_lang][to_lang]);
+		var tmp, parts, keys = Object.keys(maps.map[from_lang][to_lang]);
 		
 		for (; jumpTo < keys.length; ++jumpTo) {
 			if (tmp = word.match(new RegExp(keys[jumpTo], 'ig'))) {
@@ -39,7 +39,7 @@ var Trans = function() {
 					for (var i = 0; i < parts.length; ++i) {
 						if (parts[i] === tmp[0]) {
 							// console.debug('in-->', keys[jumpTo]);
-							parts[i] = parts[i].replace(new RegExp(keys[jumpTo], 'ig'), that.maps.map[from_lang][to_lang][keys[jumpTo]]);
+							parts[i] = parts[i].replace(new RegExp(keys[jumpTo], 'ig'), maps.map[from_lang][to_lang][keys[jumpTo]]);
 						} else {
 							parts[i] = that.tWordN(parts[i], from_lang, to_lang, jumpTo + 1);
 						}
@@ -59,10 +59,10 @@ var Trans = function() {
 	this.find_bridge = function(str, from_lang, to_lang) {
 		var found_bridge = false;
 		
-		// console.debug(str, from_lang, to_lang, that.maps.languages);
+		// console.debug(str, from_lang, to_lang, maps.languages);
 		
-		for (var i = 0; i < that.maps.languages.length && found_bridge === false; ++i) {
-			found_bridge = !!that.maps.map[that.maps.languages[i]][to_lang] && that.maps.languages[i];
+		for (var i = 0; i < maps.languages.length && found_bridge === false; ++i) {
+			found_bridge = !!maps.map[maps.languages[i]][to_lang] && maps.languages[i];
 		}
 		
 		if (found_bridge) {
@@ -78,16 +78,16 @@ var Trans = function() {
 	this.lingualate_helper = function(str, from_lang, to_lang) {
 		// return str;
 		// console.debug('rrr!!!', str, from_lang, to_lang);
-		if (!str || !that.maps.map[from_lang]) {
+		if (!str || !maps.map[from_lang]) {
 			return str || '';
 		}
 		
-		if (!that.maps.map[from_lang][to_lang]) {
+		if (!maps.map[from_lang][to_lang]) {
 			return that.find_bridge(str, from_lang, to_lang);
 		}
 		
 		var words = that.tsplit(str),
-			func = ['ru', 'ua', 'sr', 'el', 'trans'].indexOf(from_lang) !== -1 ? that.tWord1 : that.tWordN;
+			func = ['ru', 'uk', 'sr', 'el', 'trans'].indexOf(from_lang) !== -1 ? that.tWord1 : that.tWordN;
 		
 		for (var i=0; i < words.length; ++i) {
 			words[i] = func(words[i], from_lang, to_lang);
