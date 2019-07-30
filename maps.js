@@ -1,6 +1,6 @@
 // Regex for syllable - [^aeiouy]*[aeiouy]+
 
-maps = {
+var maps = {
 	trans: {
 		// https://en.wikipedia.org/wiki/Help:IPA
 		he: {

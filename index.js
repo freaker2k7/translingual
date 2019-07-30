@@ -24,9 +24,7 @@ var trans = function() {
 		}
 		
 		jumpTo = jumpTo || 0;
-		var tmp,
-			keys = Object.keys(that.maps.map[from_lang][to_lang]),
-			parts = [];
+		var tmp, parts, keys = Object.keys(that.maps.map[from_lang][to_lang]);
 		
 		for (; jumpTo < keys.length; ++jumpTo) {
 			if (tmp = word.match(new RegExp(keys[jumpTo], 'ig'))) {
