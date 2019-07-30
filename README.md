@@ -43,7 +43,7 @@ var result = trans.lingualate('Hello world!', 'en', 'ru');
 console.log(result); // This will print: "Эллoу Вoурлд!"
 ```
 
-Or in vanilla JS in your browser:
+Or using vanilla JS in your browser:
 ```html
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/translingual@1.1.0/dist/translingual.min.js"></script>
 <script type="text/javascript">
