@@ -31,6 +31,7 @@
 Via bash:
 ```bash
 $ trans 'Hello world!' en ru
+# "Эллoу Вoурлд!"
 ```
 
 As code:
