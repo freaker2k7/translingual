@@ -42,7 +42,7 @@ console.log(result); // This will print: "Эллoу Вoурлд!"
 ```
 
 Or in vanilla JS in your browser:
-```xml
+```html
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/translingual@1.0.9/dist/translingual.min.js"></script>
 <script type="text/javascript">
 	var result = Trans.lingualate('Hello world!', 'en', 'ru');
