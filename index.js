@@ -1,6 +1,6 @@
 var maps = require('./maps.js');
 
-var trans = function() {
+var Trans = function() {
 	var that = this;
 	
 	this.maps = maps;
@@ -107,4 +107,4 @@ var trans = function() {
 	};
 };
 
-module.exports = new trans();
+module.exports = new Trans();
