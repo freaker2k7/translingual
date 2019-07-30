@@ -1,4 +1,4 @@
-# Translingual - Multilingual transliteration - phonetic visualization using transcription.
+# Translingual - Multilingual transliteration - Phonetic visualization using transcription.
 
 
 [![npm version](https://badge.fury.io/js/translingual.svg)](https://badge.fury.io/js/translingual)
@@ -45,7 +45,7 @@ console.log(result); // This will print: "Эллoу Вoурлд!"
 
 Or in vanilla JS in your browser:
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/translingual@1.0.9/dist/translingual.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/translingual@1.1.0/dist/translingual.min.js"></script>
 <script type="text/javascript">
 	var result = Trans.lingualate('Hello world!', 'en', 'ru');
 	console.log(result); // This will print: "Эллoу Вoурлд!"
