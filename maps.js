@@ -408,7 +408,6 @@ maps = {
 			'cc([eiy])': 'ks$1', // before e, i or y ==> /ks/
 
 			'oar': 'ɔːr', // before r ==> /ɔː/
-			'oar': 'ɔːr', // before r ==> /ɔː/
 			'oa': 'oʊ', // usually ==> /oʊ/
 			'oe': 'iː', // usually ==> /iː/
 			'oeu': 'uː', // ==> /uː/

@@ -19,7 +19,7 @@
 
 
 <center>
-  <img src="https://i.imgur.com/4Jchw0A.jpg" alt="Translingual Logo" title="Translingual Logo" style="box-shadow: none;" style="max-width: 100%; border: 0; box-shadow: none;" height="300">
+  <img src="https://i.imgur.com/L508wvt.jpg" alt="Translingual Logo" title="Translingual Logo" style="box-shadow: none;" style="max-width: 100%; border: 0; box-shadow: none;" height="300">
 </center>
 
 
