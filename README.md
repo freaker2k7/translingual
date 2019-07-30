@@ -4,7 +4,7 @@
 [![npm version](https://badge.fury.io/js/translingual.svg)](https://badge.fury.io/js/translingual)
 [![node version](https://img.shields.io/node/v/translingual)](https://www.npmjs.com/package/translingual)
 [![npm downloads](https://img.shields.io/npm/dw/translingual.svg)](https://www.npmjs.com/package/translingual)
-[![Gitter](https://badges.gitter.im/freaker2k7-translingual/community.svg)](https://gitter.im/freaker2k7-translingual/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+[![Gitter](https://badges.gitter.im/translingual/community.svg)](https://gitter.im/translingual/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/freaker2k7/translingual.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/freaker2k7/translingual/alerts/)
 [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/freaker2k7/translingual.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/freaker2k7/translingual/context:javascript)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/freaker2k7/translingual/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/freaker2k7/translingual/?branch=master)
@@ -43,7 +43,7 @@ console.log(result); // This will print: "Эллoу Вoурлд!"
 
 Or in vanilla JS in your browser:
 ```xml
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/translingual@1.0.5/dist/translingual.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/translingual@1.0.7/dist/translingual.min.js"></script>
 <script type="text/javascript">
 ```
 <div style="margin-top: -2rem"></div>
