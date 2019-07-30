@@ -5,7 +5,7 @@ var Trans = function() {
 	
 	this.maps = maps;
 	
-	this.tWord1 = function translingualate(word, from_lang, to_lang) {
+	this.tWord1 = function(word, from_lang, to_lang) {
 		// console.debug(word, that.maps.map[from_lang][to_lang]);
 		
 		for (var k in that.maps.map[from_lang][to_lang]) {
@@ -18,7 +18,7 @@ var Trans = function() {
 		return word;
 	};
 	
-	this.tWordN = function translingualate(word, from_lang, to_lang, jumpTo) {
+	this.tWordN = function(word, from_lang, to_lang, jumpTo) {
 		if (!word) {
 			return '';
 		}
@@ -30,7 +30,7 @@ var Trans = function() {
 			if (tmp = word.match(new RegExp(keys[jumpTo], 'ig'))) {
 				try {
 					tmp[0] = tmp[0].replace(/([\()\[\]])/g, "\\$1");
-					parts = word.split(new RegExp('(' + tmp[0] + ')')).filter(function (v) {
+					parts = word.split(new RegExp('(' + tmp[0] + ')')).filter(function(v) {
 						return v;
 					});
 					
@@ -56,7 +56,7 @@ var Trans = function() {
 		return word;
 	};
 	
-	this.find_bridge = function (str, from_lang, to_lang) {
+	this.find_bridge = function(str, from_lang, to_lang) {
 		var found_bridge = false;
 		
 		// console.debug(str, from_lang, to_lang, that.maps.languages);
@@ -71,11 +71,11 @@ var Trans = function() {
 		return '';
 	};
 	
-	this.tsplit = function (str) {
-		return str.split(/[\s\-]/).filter(function (v) { return typeof v !== 'undefined' && v.length; })
+	this.tsplit = function(str) {
+		return str.split(/[\s\-]/).filter(function(v) { return typeof v !== 'undefined' && v.length; })
 	};
 	
-	this.lingualate_helper = function (str, from_lang, to_lang) {
+	this.lingualate_helper = function(str, from_lang, to_lang) {
 		// return str;
 		// console.debug('rrr!!!', str, from_lang, to_lang);
 		if (!str || !that.maps.map[from_lang]) {
@@ -96,13 +96,13 @@ var Trans = function() {
 		return words.join(' ');
 	};
 	
-	this.up = function (str) {
-		return that.tsplit(str).map(function (v) {
+	this.up = function(str) {
+		return that.tsplit(str).map(function(v) {
 			return v.substr(0, 1).toUpperCase() + v.substr(1);
 		}).join(' ');
 	};
 	
-	this.lingualate = function (str, from_lang, to_lang) {
+	this.lingualate = function(str, from_lang, to_lang) {
 		return that.up(that.lingualate_helper(str.toLowerCase(), from_lang, to_lang));
 	};
 };
