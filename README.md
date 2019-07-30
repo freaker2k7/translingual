@@ -43,7 +43,7 @@ console.log(result); // This will print: "Эллoу Вoурлд!"
 
 Or in vanilla JS in your browser:
 ```xml
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/translingual@1.0.8/dist/translingual.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/translingual@1.0.9/dist/translingual.min.js"></script>
 <script type="text/javascript">
 ```
 <div style="margin-top: -2rem"></div>
