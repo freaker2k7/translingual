@@ -43,7 +43,7 @@ console.log(result); // This will print: "Эллoу Вoурлд!"
 
 Or in vanilla JS in your browser:
 ```xml
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/translingual@1.0.4/dist/translingual.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/translingual@1.0.5/dist/translingual.min.js"></script>
 <script type="text/javascript">
 ```
 <div style="margin-top: -2rem"></div>
@@ -58,16 +58,57 @@ Or in vanilla JS in your browser:
 </script>
 ```
 
+#### [See live Demo](https://jsfiddle.net/thenetfreaker/grkzfae2/1/)
+
 ## Spported Languages
-* "**en**" - English
-* "**ru**" - Russian
-* "**es**" - Spanish
-* "**de**" - German
-* "**el**" - Greek
-* "**sr**" - Serbian
-* "**fr**" - French
-* "**uk**" - Ukrainian
-* "**he**" - Hebrew (only "to" - can't read, can only write)
+
+<table>
+	<tr>
+		<th>Language</th>
+		<th>Source</th>
+	</tr>
+	<tr>
+		<td>"<b>en</b>" - English</td>
+		<td><a href="https://en.wikipedia.org/wiki/English_orthography">English orthography</a></td>
+	</tr>
+	<tr>
+		<td>"<b>ru</b>" - Russian</td>
+		<td><a href="https://en.wikipedia.org/wiki/Russian_alphabet">Russian alphabet</a></td>
+	</tr>
+	<tr>
+		<td>"<b>es</b>" - Spanish</td>
+		<td><a href="https://en.wikipedia.org/wiki/Spanish_orthography">Spanish orthography</a></td>
+	</tr>
+	<tr>
+		<td>"<b>de</b>" - German</td>
+		<td><a href="https://en.wikipedia.org/wiki/German_orthography">German orthography</a></td>
+	</tr>
+	<tr>
+		<td>"<b>el</b>" - Greek</td>
+		<td><a href="https://en.wikipedia.org/wiki/Greek_orthography">Greek orthography</a></td>
+	</tr>
+	<tr>
+		<td>"<b>sr</b>" - Serbian</td>
+		<td><a href="https://en.wikipedia.org/wiki/Serbian_Cyrillic_alphabet">Serbian Cyrillic alphabet</a></td>
+	</tr>
+	<tr>
+		<td>"<b>fr</b>" - French</td>
+		<td><a href="https://en.wikipedia.org/wiki/French_orthography">French orthography</a></td>
+	</tr>
+	<tr>
+		<td>"<b>uk</b>" - Ukrainian</td>
+		<td><a href="https://en.wikipedia.org/wiki/Ukrainian_alphabet">Ukrainian alphabet</a></td>
+	</tr>
+	<tr>
+		<td>"<b>he</b>" - Hebrew</td>
+		<td><a href="https://en.wikipedia.org/wiki/Hebrew_spelling">Hebrew spelling</a><br>(only "to" - can't read, can only write)</td>
+	</tr>
+	<tr>
+		<td>"<b>trans</b>" - Transcription</td>
+		<td><a href="https://en.wikipedia.org/wiki/Help:IPA">IPA</a></td>
+	</tr>
+</table>
+
 
 ## Roadmap
 * Add more languages.
