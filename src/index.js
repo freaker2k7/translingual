@@ -25,7 +25,7 @@ var tWordN = function(word, from_lang, to_lang, jumpTo) {
 	for (; jumpTo < keys.length; ++jumpTo) {
 		if (tmp = word.match(new RegExp(keys[jumpTo], 'ig'))) {
 			try {
-				tmp[0] = tmp[0].replace(/([\()\[\]])/g, "\\$1");
+				tmp[0] = tmp[0].replace(/([\(\)\[\]\{\}])/g, "\\$1");
 				parts = word.split(new RegExp('(' + tmp[0] + ')')).filter(function(v) {
 					return v;
 				});
