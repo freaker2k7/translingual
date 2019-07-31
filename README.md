@@ -8,6 +8,7 @@
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/freaker2k7/translingual.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/freaker2k7/translingual/alerts/)
 [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/freaker2k7/translingual.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/freaker2k7/translingual/context:javascript)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/freaker2k7/translingual/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/freaker2k7/translingual/?branch=master)
+[![Known Vulnerabilities](https://snyk.io//test/github/freaker2k7/translingual/badge.svg?targetFile=package.json)](https://snyk.io//test/github/freaker2k7/translingual?targetFile=package.json)
 [![License](https://img.shields.io/badge/license-Apache-brightgreen.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Bungle size](https://img.shields.io/bundlephobia/minzip/translingual)](https://bundlephobia.com/result?p=translingual)
 [![Repo size](https://img.shields.io/github/repo-size/freaker2k7/translingual)](https://github.com/freaker2k7/translingual)
@@ -15,7 +16,6 @@
 [![Beerpay](https://beerpay.io/freaker2k7/translingual/badge.svg?style=flat)](https://beerpay.io/freaker2k7/translingual)
 [![Liberapay](http://img.shields.io/liberapay/receives/evgy.svg?logo=liberapay)](https://liberapay.com/evgy/)
 [![GitHub stars](https://img.shields.io/github/stars/freaker2k7/translingual.svg?style=social&label=Stars)](https://github.com/freaker2k7/translingual/stargazers/)
-[![Known Vulnerabilities](https://snyk.io//test/github/freaker2k7/translingual/badge.svg?targetFile=package.json)](https://snyk.io//test/github/freaker2k7/translingual?targetFile=package.json)
 
 
 <div style="text-align: center">
@@ -39,20 +39,20 @@ As code:
 ```javascript
 const trans = require('translingual');
 
-var result = trans.lingualate('Hello world!', 'en', 'ru');
+var result = trans.ling('Hello world!', 'en', 'ru');
 console.log(result); // This will print: "Эллoу Вoурлд!"
 ```
 
 Or using vanilla JS in your browser:
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/translingual@1.1.1/dist/translingual.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/translingual@1.1.2/dist/translingual.min.js"></script>
 <script type="text/javascript">
-	var result = Trans.lingualate('Hello world!', 'en', 'ru');
+	var result = Trans.ling('Hello world!', 'en', 'ru');
 	console.log(result); // This will print: "Эллoу Вoурлд!"
 </script>
 ```
 
-#### [See live Demo](https://jsfiddle.net/thenetfreaker/grkzfae2/7/)
+#### [See live Demo](https://jsfiddle.net/thenetfreaker/grkzfae2/8/)
 
 ## Description
 This small and cool module can phonatically visualize a sentense from one language to another.

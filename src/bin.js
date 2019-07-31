@@ -19,4 +19,4 @@ if (!str.length ||  process.argv > 2) {
 	throw "No string to translate!";
 }
 
-console.log(trans.lingualate(str, from_lang, to_lang));
+console.log(trans.ling(str, from_lang, to_lang));
