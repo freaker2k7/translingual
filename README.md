@@ -52,7 +52,7 @@ Or using vanilla JS in your browser:
 </script>
 ```
 
-#### [See live Demo](https://jsfiddle.net/thenetfreaker/grkzfae2/8/)
+### [See live Demo](https://jsfiddle.net/thenetfreaker/grkzfae2/8/)
 
 ## Description
 This small and cool module can phonatically visualize a sentense from one language to another.
