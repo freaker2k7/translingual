@@ -45,7 +45,7 @@ console.log(result); // This will print: "Эллoу Вoурлд!"
 
 Or using vanilla JS in your browser:
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/translingual@1.1.4/dist/translingual.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/translingual@1.1.5/dist/translingual.min.js"></script>
 <script type="text/javascript">
 	var result = Trans.ling('Hello world!', 'en', 'ru');
 	console.log(result); // This will print: "Эллoу Вoурлд!"
