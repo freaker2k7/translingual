@@ -65,7 +65,7 @@ For this I use [transcription](https://en.wikipedia.org/wiki/Help:IPA "Transcrip
 I translate a sentense from any of the supported original languages to 
 transcription, and from that I form back a sentense on any currently supported language.
 
-NOTE: Semitic languages like Hebrew and Arabic are really problematic to translate *into* transcription.
+NOTE: Semitic languages like Hebrew and Arabic are really problematic to translate *into* transcription without [vowelizations](https://en.wiktionary.org/wiki/vowelization).
 
 ## Spported Languages
 
