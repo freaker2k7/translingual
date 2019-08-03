@@ -43,13 +43,18 @@ var result = trans.ling('Hello world!', 'en', 'ru');
 console.log(result); // This will print: "Эллoу Вoурлд!"
 ```
 
-Or using vanilla JS in your browser:
+Using vanilla JS in your browser:
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/translingual@1.1.5/dist/translingual.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/translingual@1.1.7/dist/translingual.min.js"></script>
 <script type="text/javascript">
 	var result = Trans.ling('Hello world!', 'en', 'ru');
 	console.log(result); // This will print: "Эллoу Вoурлд!"
 </script>
+```
+
+Or even, using Docker:
+```bash
+$ docker run --rm evgy/translingual 'Hello world!' en ru
 ```
 
 ### [See live Demo](https://jsfiddle.net/thenetfreaker/grkzfae2/8/)

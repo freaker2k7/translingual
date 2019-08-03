@@ -3,11 +3,14 @@ const fs = require('fs');
 
 if (fs.existsSync('README.md')) {
 	var package = fs.readFileSync('package.json');
-	var data = fs.readFileSync('README.md');
+	var readme_data = fs.readFileSync('README.md');
+	var dockerfile_data = fs.readFileSync('Dockerfile');
 	
 	
 	package = JSON.parse(package);
-	data = data.toString().replace(/@\d+\.\d+\.\d+/, '@' + package.version);
+	readme_data = readme_data.toString().replace(/@\d+\.\d+\.\d+/, '@' + package.version);
+	dockerfile_data = dockerfile_data.toString().replace(/@\d+\.\d+\.\d+/, '@' + package.version);
 	
-	fs.writeFileSync('README.md', data);
+	fs.writeFileSync('README.md', readme_data);
+	fs.writeFileSync('Dockerfile', dockerfile_data);
 }

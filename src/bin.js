@@ -2,8 +2,6 @@
 
 var trans = require('./index.js');
 
-console.log(trans.maps.languages);
-
 var to_lang = process.argv.pop();
 if (to_lang.length !== 2 || !~trans.maps.languages.indexOf(to_lang) && !~Object.keys(trans.maps.map.trans).indexOf(to_lang)) {
 	throw "No language to translate to!";
