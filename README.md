@@ -1,4 +1,4 @@
-# Translingual - Multilingual transliteration - Phonetic visualization using transcription.
+# Translingual - Multilingual transliteration - Phonetic translation using transcription.
 
 
 [![npm version](https://badge.fury.io/js/translingual.svg)](https://badge.fury.io/js/translingual)
@@ -10,12 +10,12 @@
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/freaker2k7/translingual/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/freaker2k7/translingual/?branch=master)
 [![Known Vulnerabilities](https://snyk.io//test/github/freaker2k7/translingual/badge.svg?targetFile=package.json)](https://snyk.io//test/github/freaker2k7/translingual?targetFile=package.json)
 [![License](https://img.shields.io/badge/license-Apache-brightgreen.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Bungle size](https://img.shields.io/bundlephobia/minzip/translingual)](https://bundlephobia.com/result?p=translingual)
 [![Repo size](https://img.shields.io/github/repo-size/freaker2k7/translingual)](https://github.com/freaker2k7/translingual)
 [![Build status](https://ci.appveyor.com/api/projects/status/rwbo4jvqp4032boj/branch/master?svg=true)](https://ci.appveyor.com/project/freaker2k7/translingual/branch/master)
 [![Beerpay](https://beerpay.io/freaker2k7/translingual/badge.svg?style=flat)](https://beerpay.io/freaker2k7/translingual)
 [![Liberapay](http://img.shields.io/liberapay/receives/evgy.svg?logo=liberapay)](https://liberapay.com/evgy/)
 [![GitHub stars](https://img.shields.io/github/stars/freaker2k7/translingual.svg?style=social&label=Stars)](https://github.com/freaker2k7/translingual/stargazers/)
+<!-- [![Bungle size](https://img.shields.io/bundlephobia/minzip/translingual)](https://bundlephobia.com/result?p=translingual) -->
 
 
 <div style="text-align: center">
