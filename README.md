@@ -60,10 +60,10 @@ $ docker run --rm evgy/translingual 'Hello world!' en ru
 ### [See live Demo](https://jsfiddle.net/thenetfreaker/grkzfae2/8/)
 
 ## Description
-This small and cool module can phonatically visualize a sentense from one language to another.
+This small and cool module can phonatically visualize a sentence from one language to another.
 For this I use [transcription](https://en.wikipedia.org/wiki/Help:IPA "Transcription"). 
-I translate a sentense from any of the supported original languages to 
-transcription, and from that I form back a sentense on any currently supported language.
+I translate a sentence from any of the supported original languages to 
+transcription, and from that I form back a sentence on any currently supported language.
 
 NOTE: Semitic languages like Hebrew and Arabic are really problematic to translate *into* transcription without [vowelizations](https://en.wiktionary.org/wiki/vowelization).
 
